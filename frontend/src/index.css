@@ -1,0 +1,984 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Home-Home Page */
+
+.Login-Signup-Container{
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+.loginButton,.signUpButton{
+  /* position: relative; */
+  display: inline-block;
+  margin: 5px;
+  padding: 2px 12px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color:  #387ed1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid  #387ed1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.loginButton:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0  #387ed1;
+}
+.loginButton:active {
+  transform: scale(0.9);
+}
+
+.signUpButton:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0  #387ed1;
+}
+
+.signUpButton:active {
+  transform: scale(0.9);
+}
+
+
+.home-hero-image-1{
+  margin-top: 3rem;
+  width: 61%;
+}
+.home-hero-h1-heading-1{
+  font-size: 30px;
+  margin-bottom: 0.6%;
+  color: #424242;
+  font-family:  "Roboto", sans-serif;
+}
+.hero-para-1{
+    font-size: 21.9px;
+    margin-bottom:3.2%;
+}
+.home-hero-button-1{
+  width: 40px;
+  height: 20px;
+  margin: 0 auto;
+   text-decoration: none;
+    background-color: #387ed1;
+   border:0;
+   border-radius: 0.27rem;
+   padding: 15px 35px;
+   text-align: center;
+   color: aliceblue;
+   /* font-weight: 700; */
+   font:20.2px "Roboto", sans-serif;
+   /* font-weight: bold; */
+}
+
+/* Home/Awards Page */
+.award-pressLogos{
+  width: 93%;
+  padding: 1.5%;
+  height: 13.5%;
+}
+
+/* Home-Stats page */
+
+.stats-ecosystem-image{
+  width: 99%;
+  /* margin-bottom: 10%; */
+  margin-left: 4%;
+}
+.stats-1st-row{
+  /* border: 1px solid black; */
+  width: 98%;
+  /* margin: 7% 10% 10% 1%; */
+}
+.stats-left-side{
+  width: 35%;
+  margin-left: 6%;
+}
+.stats-heading{
+  color: rgb(69, 68, 68);
+    /* line-height: 4rem; */
+}
+.stats-para{
+  color: rgb(91, 89, 89);
+  margin-bottom: 10%;
+  font-size: 106%;
+}
+.stats-links, .pricing-link1{
+  text-decoration: none;
+}
+.states-image-2{
+  width: 60%;
+  margin: auto;
+  
+}
+
+/* Home-Education page */
+.edu-col-2{
+padding: 4%;
+font-size: 1.1rem;
+}
+.edu-main-container{
+  margin-left: 12%;
+   }
+.edu-image{
+    width: 85%;
+   }
+   .VT-links{
+    text-decoration: none;
+   }
+
+   /* Navbar page: */
+   .navbar_logo_svg{
+     width: 24.7%;
+     padding: 18.5px;
+     margin-left: 1rem;
+   }
+   .nav_main_container{
+    background-color: white;
+    border-bottom: 0.1rem solid rgb(243, 239, 239);
+    /* box-shadow: 1px 1px 5px rgb(244, 239, 239)  ; */
+    padding: 0;
+    width: 100%;
+    height: 62px;
+    position: fixed;
+    top:0%;
+    box-shadow: 1px 2px 2px rgb(244, 239, 239);
+   }
+   /* #navbarSupportedContent{
+    margin-right: 3.4rem;
+   } */
+   .navbar-nav{
+    /* border: 1px solid; */
+    margin-left: 2rem;
+   }
+  .nav-link{
+    margin: 14.5px;
+ font-family: "Roboto", sans-serif;    font-size: 15px;
+    color: rgb(63, 62, 62) ;
+  }
+
+  /* openAccount page: */
+  .openAccount-container{
+    margin-top: 80px;
+  }
+
+.openAccount-h1-heading-1{
+  font-size: 34px;
+   color: rgb(72, 71, 71);
+   margin-bottom: 2.2%;
+   font-family:  "Roboto", sans-serif;
+}
+.openAccount-para-1{
+  font-size: 17.5px;
+  color: rgb(82, 81, 81);
+  margin-bottom: 3%;
+}
+.openAccount-button-1{
+  width: 205px;
+  height: 46px;
+  text-decoration: none;
+  padding: 15px 35px;
+  text-align: center;
+  background-color: #1d5fc9e3;
+  color: white;
+  border: 0;
+  border-radius: 0.18em; 
+  font:20.2px "Roboto", sans-serif;
+}
+
+/* footer page: */
+.footer-main-container{
+    border-top: 0.1rem solid rgb(243, 239, 239);
+    margin-top: 0;
+    background-color: rgba(222, 216, 222, 0.119);
+}
+.footer-2container{
+  /* border: 1px solid ; */
+  padding:2.5% 5% 0% 5%;
+}
+.footer-logo{
+  width: 150px;
+  height: 19.3px;
+}
+.footer-left-text{
+  margin-top: 1rem;
+  font-size:13px;
+   font-family: "Roboto", sans-serif ;
+   color: rgb(89, 87, 87);
+   width: 100%;
+   line-height: 2;
+}
+.footer-3container{
+  padding-left: 2.1rem;
+}
+.footer-socialMedia-logos {
+  margin-bottom: 1.3rem;
+}
+.footer-socialMedia-logos a i{
+  color: rgb(91, 90, 90);
+   margin-right:1.3rem ;
+   font-size: 1.2rem;
+}
+hr{
+  color: rgb(191, 186, 186);
+}
+.footer-2nd-SocialMedia-logos a i{
+   margin-right: 1.2rem;
+   font-size: 1.27rem;
+    color: rgb(91, 90, 90);
+}
+.footer-links-heading{
+  font-size: 1.15rem;
+  color: rgb(58, 57, 57);
+  font-weight: 500;
+}
+.footer-links-a a{
+  text-decoration: none;
+  color: rgb(116, 112, 112);
+  margin-bottom: 4px;
+  line-height: 2.5;
+  font-size: 0.9rem;
+  font-family:  "Roboto", sans-serif;;
+}
+.footer-bottom-para p{
+  color: rgb(159, 155, 155);
+  font-size: 11.18px; 
+  padding: 2px;  
+  margin: 0 1.5rem 0.5rem 1.5rem;
+  /* font-family:  "Roboto", sans-serif; */
+}
+.footer-bottom-para p a{
+  text-decoration: none;
+}
+.footer-bottom-links{
+  text-align: center;
+  /* margin-bottom: 2rem; */
+}
+.footer-bottom-links a{
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+  margin: 0.2rem 0.7rem 3rem 1rem;
+}
+.about-hero-h1{
+  margin-top: 9.6rem;
+  font-size: 2.17rem;
+  font-family:  "Roboto", sans-serif;
+  line-height: 1.4;
+   /* transform: scaleX(0.98); */
+  color: rgb(51, 49, 49);
+}
+.about-2hero-section{
+  font-family:  "Roboto", sans-serif;
+  color: rgb(82, 79, 79);
+  width: 68rem;
+  margin: auto;
+  margin-top: 5.4rem;
+  font-size: 1.05rem;
+}
+.about-2hero-section p{
+  line-height: 1.7;
+}
+.about-2hero-section p a{
+  text-decoration: none;
+}
+
+.about-team-h1{
+  font-size: 2.15rem;
+  color: rgb(67, 65, 65);
+}
+.people-container{
+  width: 70%;
+}
+.about-team-section{
+  margin-top: 3.6rem;
+}
+.left-team-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   flex-basis: 39.3333333333%;
+}
+.nitin-image{
+  border-radius: 100%;
+  width:79.6%;
+}
+.founder-name{
+  color: rgb(66, 63, 63);
+  font-size: 1.25rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.team-intro{
+  font-size: 1.06rem;
+  line-height: 1.7;
+  padding-right: 1.8rem;
+  padding-left: 1.3rem;
+  margin-top: 1rem;
+}
+.team-intro p a{
+  text-decoration: none;
+  font-weight: 550;
+  color: rgba(49, 118, 237, 0.808);
+}
+.team-position{
+  font-size: 0.9rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* products page: */
+/* products hero section */
+.product-1st-container{
+       box-sizing: border-box;
+       margin-top: 10rem;
+       text-align: center;
+       color: rgb(70, 70, 70);
+         font-family: Arial, Helvetica, sans-serif;
+         /* padding-right: 0.7rem; */
+       /* border: 1px solid black; */
+    
+}
+.h1-tag{
+   /* border: 1px solid black; */
+  font-size: 1.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para-1{
+ font-size: 1.32rem;
+ padding: 0.3rem;
+color: rgb(80, 78, 78);
+}
+.para-2{
+  margin-bottom: 7.5rem;
+}
+.para-2 , .para-2 a{
+  font-size: 1.07rem;
+   /* border: 1px solid black; */
+   line-height: 1.5;
+text-decoration: none;
+}
+
+/* product left side */
+
+.left-row{
+  margin-top: 5rem;
+}
+.col-left-left{
+   /* border: 1px solid black; */
+   width: 600px;
+   margin-left: 130px;
+}
+.col-left-right{
+   /* border: 1px solid black; */
+   width: 370px;
+    margin-left: 133px;
+   padding-top: 50px;
+}
+.col-left-right h1{
+  font-size: 34px;
+  color: rgb(80, 77, 77);
+  margin-bottom: 1.6rem;
+}
+.col-left-right p{
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+/* .col-left-right   */
+.plinks, .col-right-left a{
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+.gaimg-div{
+  margin-top: 1.6rem;
+}
+.gaimg-div img{
+  height: 45px;
+}
+
+/*product right side */
+
+.rightsection-container{
+  /* border: 1px solid black; */
+  margin-top: 5rem;
+}
+.right-row{
+  margin-top: 1.5rem;
+}
+.col-right-left{
+    width: 380px;
+    margin-top: 147px;
+    line-height: 1.7;
+    margin-left: 103px;
+    padding-top: 50px;
+}
+.col-right-left h1{
+  color: rgb(78, 76, 76);
+  font-size: 2.1rem;
+}
+.col-right-left p{
+  font-size: 1.1rem;
+}
+.col-right-right{
+  /* border: 1px solid black; */
+  width: 630px;
+  height: 600px;
+}
+.prlinks{
+  text-decoration: none;
+}
+
+/* product universe-section: */
+
+.uni-upper-text{
+  margin-top: 6.3rem;
+  margin-bottom: 6.3rem;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.uni-upper-text a{
+    text-decoration: none;
+}
+.uni-h1{
+  font-size: 2.1rem;
+  /* padding-bottom: 1.4rem; */
+  margin-bottom: 1.4rem;
+  color: rgb(58, 57, 57);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.uni-head-p{
+  /* border: 1px solid black; */
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: rgb(59, 57, 57);
+  letter-spacing: -0.3px;
+  margin-bottom: 2.2rem;
+}
+.uni-col{
+/* border: 1px solid black; */
+margin-right: 8px;
+margin-left: 5px;
+ width: 335px;
+ height: 170px;
+ margin-bottom: 24px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+text-align: center;
+
+}
+.uni-logos-row-cont{
+  margin-left: 9rem;
+  /* border: 1px solid black; */
+  width: 82%;
+}
+.uni-img{
+  width: 210px;
+  height: 65px;
+  padding: 5px;
+}
+.img-2{
+width: 240px;
+}
+.img-3{
+width: 205px;
+margin-right: 35px;
+/* border: 1px solid black; */
+}
+.img-4{
+width: 180px;
+height: 64px;
+}
+.img-5{
+width: 220px;
+}
+.img-6{
+width: 150px;
+height: 65px;
+}
+.uni-para{
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 0.76rem;
+  letter-spacing: 0.5px;
+  color: rgb(133, 126, 126);
+  /* border: 1px solid black; */
+}
+.product-button{
+   width: 202px;
+  /* height: 44px; */
+  text-decoration: none;
+   text-align: center;
+  padding: 15px 30px;
+  background-color: #1d5fc9d8;
+  color: white;
+  border: 0;
+  border-radius: 0.17em; 
+  font:20.2px "Roboto", sans-serif;
+  margin-left: 42% ;
+  margin-top: 1.5rem;
+  margin-bottom: 4.8rem;
+}
+
+/* Pricing page: Hero section */
+.pricing-hero-section{
+  margin-top: 10rem;
+   font-family:sans-serif;
+}
+.pricing-h1{
+  color:#383737;
+  font-size: 30px;
+}
+.pricing-para{
+       color: #9B9B9B;
+       font-size: 20.5px;
+       margin: 10px 0px 15px;
+}
+.pricing-row{
+  margin-top: 12.5rem ;
+   /* width: 78rem; */
+  /* margin-left: 5rem ; */ 
+}
+.pricing0-img, .pricing20-img{
+  width: 250px;
+  margin-bottom: 2rem;
+}
+.pricing0-h1{
+  font-size: 29px;
+   color: #424242;
+}
+.pricing0-para, .pricing0-h1{
+ /* width: 272px; */
+ text-align: center;
+ margin: 0px 0px 20px;
+ padding-left: 2.3rem ;
+ padding-right: 2.3rem;
+ letter-spacing: 0.5px;
+ 
+}
+.pricing0-para{
+  font-size: 16px;
+  margin: 16px 0px 15px;
+  color: #666666;
+}
+
+/* Pricing Brokerage */
+
+.broke-container{
+  font-family: sans-serif;
+  margin-left: 12.5rem;
+  margin-top: 6rem;
+  color: #424242;
+}
+.broke-h2{
+  font-size: 24px;
+  margin: 0px 15px 20px;
+}
+.broke-left-col, .broke-right-col{
+ padding: 0px 1.8rem;
+ width: 43%;
+}
+
+p, ul, li{
+  font-size: 12px;
+  margin: 12px 0px 15px;
+}
+
+.broke-row{
+  color: #424242;
+}
+
+.broke-heading{
+font-size: 16px;
+  margin: 16px 0px 15px;
+}
+
+.broke-disclaimer{
+  width: 90%;
+}
+.broke-Dis-h{
+  font-size: 16px;
+  margin: 28px 13px 15px;
+}
+.broke-Dis-p{
+  font-size: 12px;
+  margin: 12px 14px 15px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+}
+
+.main-table-container{
+margin-top: 8rem;
+font-family:sans-serif ;
+width: 91%;
+margin-bottom: 6rem;
+}
+.table-container{
+  width: 91%;
+  border: 1px solid #ddd;
+}
+thead{
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+.th-l{
+ padding: 1rem;
+}
+.th-r{
+ margin-left: 31rem;
+ margin-right: 6rem;
+ padding: 1rem;
+}
+.tbody{
+  font-size: 14px;
+}
+.td-l{
+  padding: 12px 15px !important;
+  margin-right: 30rem;
+  font-size: 14px;
+}
+
+.td-r{
+  margin-left: 32rem;
+  font-size: 14px;
+
+}
+
+.free-tag{
+ /* border: 1px solid; */
+ padding: 0.2rem 1rem;
+ color: white;
+ background-color: #4caf50;
+ border-radius: 5%;
+  
+}
+
+/* Support page: hero */
+
+.support-hero{
+  margin-top: 4rem;
+  /* border: 1px solid; */
+  background-color: #f6f6f6;
+  height: 13rem;
+  padding: 1rem;
+}
+.support-hero-1{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  padding: 0px 2.5rem;
+  margin-bottom: 0.7rem;
+}
+.supp-heading{
+font-size: 37px;
+font-family: sans-serif;
+align-self: center;
+font-weight: bold;
+color: #424242;
+}
+.supp-button{
+font-size: 16.5px;
+height: 40px;
+width: 125px;
+border-radius: 2px;
+background-color:#397dd0;
+font-weight: 550;
+border: none;
+color: white;
+align-self: center;
+}
+.search-cont{
+  /* border: 1px solid; */
+  padding: 0px 2.5rem;
+  display: flex;
+
+}
+.search-icon{
+  position: absolute;
+  left: 158px;
+  top: 12rem;
+  font-size: 15px;
+  color: rgb(108, 107, 107);
+
+}
+.search-inp{
+  width: 100%;
+  height: 58px;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow:0px 3px 4px rgb(216, 206, 206);
+}
+.tickets-main-container{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.tickets-cont-1{
+  margin-right: 2rem;
+}
+.dropdown{
+   box-shadow:1px 1px 1px rgb(211, 203, 203), -1px -1px 1px rgb(211, 203, 203) ; 
+   border-radius: 3px;
+   display: flex;
+   /* height: 4.2rem; */
+   padding: 1.4rem;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+.dropdown:hover{
+  width:101% ;
+  box-shadow: 1px 1px 4px rgb(178, 175, 175), -1px -1px 4px rgb(178, 175, 175);
+}
+.plus-icon, .user-icon, .chart-icon, .inr-icon, .console-icon{
+  border: 2px solid #387ed1;
+  border-radius: 50%;
+  padding: 2px 3px;
+  color: #387ed1; 
+  font-size:13px;
+  text-align: center;
+}
+.plus-icon-div, .user-icon-div, .chart-icon-div,.inr-icon-div,.console-icon-div{
+  width: 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:oklab(0.98 0 -0.01/0.6);
+}
+.support-dropdown-li{
+   text-decoration: none;
+   font-size: 1.1rem;
+
+}
+
+.tickets-link-cont-1{
+  background-color: oklab(0.76 0.09 0.15/0.1);
+  padding: 0.6rem;
+  border-left: 14px solid #ff9100;
+}
+.tickets-quick-link-cont-2{
+  border: 1px solid #efe8e8;
+  margin-top: 1.5rem;
+}
+.ql-heading{
+    border: 1px solid #efe8e8;
+    padding: 0.8rem;
+    background-color: #f6f6f6;
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.quick-links ol a li:hover{
+    color: #383737;
+}
+
+.signup_main_cont{
+  margin-top: 9.8rem;
+  text-align: center;
+}
+.signup_main_cont, .signup-h1{
+  font-size: 1.8rem;
+  color: #424242;
+}
+.signup_main_cont .signup_hero_para{
+  margin-top: 1.5rem;
+  font-size: 1.35rem;
+  color:#727070;
+}
+.signup-section{
+  margin-top: 3rem;
+  width: 70rem;
+  margin-left: auto;
+}
+.signup-hero-img{
+  margin-top: 1.5rem;
+}
+
+.right-signup-sec{
+ /* border: 1px dashed black; */
+ 
+  /* Background image */
+  background-image: url("/public/mediaimages/logo.svg");
+  background-repeat: no-repeat; 
+  background-position: bottom;   
+  background-size: 30rem auto;   
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.loginButton, .signUpButton{
+    height: 40px;
+    width: 100px;
+}
+/* ***************************************************************************** */
+
+/* Signup form container */
+/* .signup-form {
+  max-width: 350px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+}
+
+.signup-form .form-title {
+  text-align: center;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.signup-form .form-group {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #34495e;
+  font-size: 0.9rem;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  padding: 11px 14px;
+  font-size: 1rem;
+  border: 1.8px solid #bdc3c7;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 6px rgba(41, 128, 185, 0.4);
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  background-color: #2980b9;
+  color: white;
+  font-weight: 700;
+  font-size: 1.15rem;
+  padding: 12px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  margin-top: 8px;
+}
+
+.btn-submit:hover {
+  background-color: #1c5980;
+} */
+/* ************************************************************************************ */
+
+
+/* Responsive: center image on smaller screens and stack */
+@media (max-width: 767px) {
+  .signup-section.row {
+    flex-direction: column;
+  }
+  .col-6.signup-img.left-signup-sec,
+  .col-6.right-signup-sec {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .signup-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+.investment-options-section{
+  /* border: 1px solid; */
+  margin-top: 7rem;
+  text-align: center
+}
+.invs-box{
+  /* border: 1px solid; */
+  margin-top: 3rem;
+  margin-left: 8rem;
+  width: 72rem;
+}
+.inves-cols{
+  /* border: 1px solid; */
+  display: flex;
+  margin: 1rem;
+}
+.inves-img{
+  margin: 1rem;
+}
+.inves-box-right-para{
+    text-align: start;
+    margin-left: 2rem;
+}
+.inves-para1{
+  font-size: 1.45rem;
+  margin-bottom: 0px;
+}
+.inves-para2{
+font-size: 15px;
+color: rgb(96, 92, 92);
+margin-top: 5px;
+}
+.inves-button-div button{
+  margin-top: 3rem;
+   font-size:1.5rem;
+   color: whitesmoke;
+   background-color:#2980b9;
+   padding: 0.3rem 0.7rem;
+   border-radius: 5px;
+   border: none;
+   margin-bottom:7rem;
+}
+.inves-button-div button:hover{
+   background-color:#383737;
+}
+.unbeatable_price_box{
+  /* border: 1px solid; */
+  margin-left: 6rem;
+  margin-bottom: 10rem;
+}
+.ub-pr-img{
+  /* border: 1px solid; */
+  height: 350px;
+  margin: 25px 10px;
+}
+.ub-pr-right{
+  text-align: left;
+}
+.ub-pr-right h5{
+  margin-top: 2rem;
+}
+.ub-pr-right p{
+  font-size: 16.7px;
+  margin-top: 1rem;
+  color: rgb(94, 91, 91);
+}
