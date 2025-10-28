@@ -1,39 +1,32 @@
-import React, { useState, useContext } from "react"; // Import useContext
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import GeneralContext from "./GeneralContext";
-import "./BuyActionWindow.css";
+import "./BuyActionWindow.css"; // Re-using the same CSS
 
-const BuyActionWindow = ({ uid }) => {
+const SellActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
-  
-  // --- FIX ---
-  // Use the useContext hook to get the context object
   const generalContext = useContext(GeneralContext);
 
-  const handleBuyClick = () => {
+  const handleSellClick = () => {
     axios.post("http://localhost:3002/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
-      mode: "BUY",
+      mode: "SELL", // Send "SELL"
     });
-
-    // Call closeBuyWindow from the context object
-    generalContext.closeBuyWindow();
+    generalContext.closeSellWindow(); // Assumes you create this function in your context
   };
 
   const handleCancelClick = () => {
-    // Call closeBuyWindow from the context object
-    generalContext.closeBuyWindow();
+    generalContext.closeSellWindow(); // Assumes you create this function in your context
   };
 
   return (
     <div className="container" id="buy-window" draggable="true">
       <div className="regular-order">
-        {/* ... inputs ... (no change here) */}
-        <div className="inputs">
+         <div className="inputs">
           <fieldset>
             <legend>Qty.</legend>
             <input
@@ -61,9 +54,8 @@ const BuyActionWindow = ({ uid }) => {
       <div className="buttons">
         <span>Margin required ₹140.65</span>
         <div>
-          {/* Note: Using <Link> for a button action is not ideal. <button> is better. */}
-          <Link className="btn btn-blue" onClick={handleBuyClick}>
-            Buy
+          <Link className="btn btn-red" onClick={handleSellClick}> {/* Changed to btn-red for style */}
+            Sell
           </Link>
           <Link to="" className="btn btn-grey" onClick={handleCancelClick}>
             Cancel
@@ -74,4 +66,4 @@ const BuyActionWindow = ({ uid }) => {
   );
 };
 
-export default BuyActionWindow;
+export default SellActionWindow;
